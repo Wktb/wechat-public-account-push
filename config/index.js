@@ -44,7 +44,7 @@ export const config = {
     horoscope: true,
 
     /** 生日消息和节日消息 */
-    birthdayMessage: true,
+    birthdayMessage: false,
   },
 
   /** 每日一言 */
@@ -62,7 +62,7 @@ export const config = {
       // 想要发送的人的名字
       name: "宝宝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oUdaK5vN_JzdgBDwZWx_SXzr4Lso",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "0j09K_49lGcsUOZ8yEgnkIWvAWcwIaUUfHQQH-1Sn3E",
       // 所在省份
@@ -70,11 +70,11 @@ export const config = {
       // 所在城市
       city: "无锡",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '10-26',
+      horoscopeDate: '9-10',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://wangxinleo.cn",
+      openUrl: "https://pro.luka.xingtazhuman.com/pages/index/index?cid=6&tab=1#/",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
        
@@ -90,11 +90,11 @@ export const config = {
       ]
     },
     {
-      name: "卡卡",
+      name: "宝宝",
       id: "oUdaK5hP0_24sD3Q9hgNYnXmR0Jk",
       useTemplateId: "0j09K_49lGcsUOZ8yEgnkIWvAWcwIaUUfHQQH-1Sn3E",
       province: "河南",
-      city: "郑州",
+      city: "新政",
       horoscopeDate: '10-26',
       horoscopeDateType: '今日',
       openUrl: "https://pro.luka.xingtazhuman.com/pages/index/index?cid=8&tab=1#/",
