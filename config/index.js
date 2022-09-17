@@ -41,7 +41,7 @@ export const config = {
     poetry: false,
 
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
 
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -62,9 +62,9 @@ export const config = {
       // 想要发送的人的名字
       name: "宝宝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oUdaK5vN_JzdgBDwZWx_SXzr4Lso",
+      id: ",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "wJAfLSrYgu4Is4y3uaKG_E1SFX8z9loNh27Yre9EvMw",
+      useTemplateId: "Mz3p-LM2CbvJegz9k7nyCY5ZSbEUvwo4gzh1ugWEWFU",
       // 所在省份
       province: "江苏",
       // 所在城市
@@ -97,19 +97,14 @@ export const config = {
     {
       name: "卡卡",
       id: "oUdaK5hP0_24sD3Q9hgNYnXmR0Jk",
-      useTemplateId: "wJAfLSrYgu4Is4y3uaKG_E1SFX8z9loNh27Yre9EvMw",
+      useTemplateId: "0j09K_49lGcsUOZ8yEgnkIWvAWcwIaUUfHQQH-1Sn3E",
       province: "河南",
-      city: "新郑",
+      city: "郑州",
       horoscopeDate: '10-26',
       horoscopeDateType: '今日',
-      openUrl: "https://wangxinleo.cn",
+      openUrl: "https://pro.luka.xingtazhuman.com/pages/index/index?cid=8&tab=1#/",
       festivals: [
-      // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "老婆", "year": "2001", "date": "10-26"},
-        {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+      
       ],
       customizedDateList: [
       // 在一起的日子
