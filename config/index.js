@@ -92,7 +92,7 @@ export const config = {
     {
       name: "宝宝",
       id: "oUdaK5hP0_24sD3Q9hgNYnXmR0Jk",
-      useTemplateId: "0j09K_49lGcsUOZ8yEgnkIWvAWcwIaUUfHQQH-1Sn3E",
+      useTemplateId: "NUzN_TFb_wH7LlRQJ4LYRS25_Q_UoVRYcgGsgIFuIL0",
       province: "河南",
       city: "郑州",
       horoscopeDate: '10-26',
