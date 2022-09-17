@@ -28,7 +28,7 @@ export const config = {
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
@@ -38,7 +38,7 @@ export const config = {
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
-    poetry: false,
+    poetry: true,
 
     /** 星座运势 */
     horoscope: true,
@@ -94,7 +94,7 @@ export const config = {
       id: "oUdaK5hP0_24sD3Q9hgNYnXmR0Jk",
       useTemplateId: "0j09K_49lGcsUOZ8yEgnkIWvAWcwIaUUfHQQH-1Sn3E",
       province: "河南",
-      city: "新政",
+      city: "郑州",
       horoscopeDate: '10-26',
       horoscopeDateType: '今日',
       openUrl: "https://pro.luka.xingtazhuman.com/pages/index/index?cid=8&tab=1#/",
@@ -117,13 +117,7 @@ export const config = {
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: "https://wangxinleo.cn",
-      festivals: [ 
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "老婆", "year": "2001", "date": "10-26"},
-        {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},],
+      festivals: [ ],
       customizedDateList: []
     },
     {
@@ -147,7 +141,8 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "GeDTNlmqSKQMGjwCFbZ_U6sdlNbucXvvUg_fu9vFCHE
+",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -155,7 +150,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oUdaK5hP0_24sD3Q9hgNYnXmR0Jk",
     },
     // 你可以不断按格式往下增加
     // ...
